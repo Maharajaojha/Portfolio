@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Boxicons CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="/resume/js/app.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Kumar Abhishek Ojha</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Kumar Abhishek Ojha</span></h1>
+            <div class="text-animate">
+                <h3>Backend Network Engineer</h3>
+            </div>
+            <p>Welcome to my portfolio! I’m Kumar Abhishek Ojha, a passionate Backend Network Engineer focused on
+                building and optimizing scalable network infrastructures. With expertise in system design, performance
+                optimization, and network security, I create reliable backend solutions that ensure seamless
+                connectivity for large-scale applications.</p>
+            <div class="btn-box">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/kumar-abhishek-ojha-94903b259" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="mailto:kumarabhishekojha1104@gmail.com">
+                <i class='bx bx-envelope'></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>
+
+
+    </section>
+
+    <span class="circle-spin"></span>
+    <section class="about" id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="about-img">
+            <img src="./image/image.jpg" alt="">
+
+            <div class="about-content">
+                <h3>Network Engineer</h3>
+                <p>
+                    Hello, I’m Kumar Abhishek Ojha, a 3rd-year B.Tech student passionate about backend development and
+                    network engineering. I am dedicated to designing, optimizing, and understanding scalable network
+                    infrastructures, with a focus on applying theoretical knowledge to practical projects.
+                    <br><br>
+                    During my academic journey, I have developed a strong foundation in system design, performance
+                    optimization, and network security. I enjoy exploring innovative solutions that ensure seamless
+                    connectivity and efficiency for applications.
+                    <br><br>
+                    My growing expertise includes network management, server-side technologies, and the integration of
+                    various network protocols. I am driven by a problem-solving mindset and a commitment to delivering
+                    quality results in both academic and collaborative projects.
+                    <br><br>
+                    I am excited to apply my skills to real-world challenges and continue learning about the latest
+                    advancements in technology. Feel free to connect with me for collaboration, inquiries, or
+                    opportunities to contribute to innovative projects.
+                </p>
+
+                <div class="btn-box btns">
+                    <a href="javascript:void(0)" class="btn" onclick="showResume()">Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal to display Resume -->
+    <div class="resume-modal" id="resumeModal">
+        <span class="close-btn" onclick="closeResume()">×</span>
+        <iframe id="resumeFrame" src="" title="Resume"></iframe>
+    </div>
+
+    <!-- Education and Experience Section -->
+    <section id="education">
+        <h2 class="heading">Education & Experience</h2>
+        <div class="education-experience-container">
+            <div class="education">
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2022 - Present</span>
+                        <h4>B.E - SJB Institute of Technolog</h4>
+                        <p>I am currently pursuing a Bachelor of Engineering (B.E) at SJB Institute of Technology, where
+                            I have gained valuable knowledge in engineering concepts and practical applications. The
+                            hands-on learning environment has strengthened my problem-solving skills.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2018 - 2020</span>
+                        <h4>Secondary Study - Foundation School</h4>
+                        <p>Completed secondary education at Foundation School, developing strong foundational knowledge
+                            in mathematics, science, and languages. Gained critical thinking, problem-solving skills,
+                            and a strong work ethic, preparing for higher studies and fostering a passion for continuous
+                            learning.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date"></span>
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience">
+                <h3>Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2017 - 2018</span>
+                        <h4>Web Developer - Company</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                            quibusdam quos quas optio explicabo dolor repellendus.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2018 - 2019</span>
+                        <h4>Web Developer - Company</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                            quibusdam quos quas optio explicabo dolor repellendus.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2019 - 2020</span>
+                        <h4>Web Developer - Company</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita corrupti ex eos commodi
+                            quibusdam quos quas optio explicabo dolor repellendus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- Coding Skills -->
+            <div class="skills-box">
+                <h3>Coding Skills</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="percentage">90%</span>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span class="percentage">80%</span>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+                <div class="skill">
+                    <span>Java Spring Boot</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 65%;"></div>
+                    </div>
+                    <span class="percentage">65%</span>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <span class="percentage">75%</span>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="skills-box">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Backend Development</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                    <span class="percentage">95%</span>
+                </div>
+                <div class="skill">
+                    <span>Web Development</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 67%;"></div>
+                    </div>
+                    <span class="percentage">67%</span>
+                </div>
+                <div class="skill">
+                    <span>Network Design </span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="percentage">85%</span>
+                </div>
+                <div class="skill">
+                    <span>Kali Linux</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                    <span class="percentage">60%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Project 1: Movie Booking System</h3>
+                <p>A web application developed using Java, Spring Boot, and MySQL for online movie ticket bookings. It
+                    provides features like user authentication, movie selection, and booking management.</p>
+                <a href="https://github.com/your-github-repo/movie-booking" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Pharmacy Management System</h3>
+                <p>A pharmacy management system built with Java and MySQL that allows pharmacists to manage inventory,
+                    sales, and customer records efficiently.</p>
+                <a href="https://github.com/your-github-repo/pharmacy-management" target="_blank" class="btn">View
+                    Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 3: Backend Network Solutions</h3>
+                <p>This project focuses on designing scalable network solutions and backend services for large-scale
+                    applications using technologies like Node.js and MongoDB.</p>
+                <a href="https://github.com/your-github-repo/network-solutions" target="_blank" class="btn">View
+                    Project</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>If you would like to get in touch, feel free to reach out to me through the following methods:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a
+                            href="mailto:kumarabhishekojha1104@gmali.com">kumarabhishekojha1104@gmali.com</a></li>
+                    <li><strong>Phone:</strong> +91 74880 42539</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kumar-abhishek-ojha-94903b259"
+                            target="_blank">LinkedIn Profile</a>
+                    </li>
+                    <li><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">Instagram
+                            Profile</a></li>
+                </ul>
+            </div>
+
+
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form onsubmit="sendMessageToWhatsApp(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function showResume() {
+            // Google Drive PDF viewable link
+            const googleDriveLink = 'https://drive.google.com/file/d/1xbVUAUmLvQuIV1rCCkDuw2lieweeosvo/preview';
+
+            // Open the link in a new browser tab
+            window.open(googleDriveLink, '_blank');
+        }
+    </script>
+
+    <div class="contact-form">
+
+
+    </div>
+
+    <script>
+        function sendMessageToWhatsApp(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Replace with your WhatsApp number in international format without "+" or "00"
+            const whatsappNumber = "917488042539"; // Example: India number without "+" or "00"
+
+            // Construct the WhatsApp API URL
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                `Hello, my name is ${name}. You can reach me at ${email}. Here's my message: ${message}`
+            )}`;
+
+            // Open the URL in a new tab
+            window.open(whatsappURL, '_blank');
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
